@@ -1,12 +1,12 @@
 # Hospital_Cost_Quality
 
-### 1. Goal
+1. Goal
 
 To identify the relationship of the cost and the quality of cardiac services in the United States. 
 
 Heart failure and heart attack are two forms of heart disease. They have some common causes. Heart attacks can lead to heart failure by weakening the heart's pumping ability. I will investigate into both heart failure and heart attack treatment and services in this analysis. 
 
-### 2. Description of Datasets
+2. Description of Datasets
 
 In order identify the relationship of cost and quality, I will need the data of cost/payments and outcome measures. I searched in the CMS database and found several datasets that will help. All of these datasets contains the information of the same hospitals registered at CMS and have similar time frames (except for Timely and Effective Care Dataset). The outcome measures could be found in Unplanned Hospital Visits - Hospital, Complications and Deaths - Hospital, and Timely and Effective Care - Hospital datasets. The corresponding payments data could be found in Payment and Value of Care. Other hospital information could be found in  Hospital General Information. 
 
@@ -41,18 +41,18 @@ In order identify the relationship of cost and quality, I will need the data of 
     * Time window: 2016-01-01 to 2017-03-31
     * \# of Hospitals: 4806
 
-3. [Data Processing](#3.-Data-Processing)  
-    3.1 [Load Data](#3.1-Load-Data)  
-    3.2 [Clean Data](#3.2-Clean-Data)  
-    3.3 [Choose Target Variables](#3.3-Choose-Target-Variables)  
-    3.4 [Merge Datasets](#3.4-Merge-Datasets)  
-    3.5 [Rescale Payments](#3.5-Rescale-Payments)  
-4. [Exploratory Data Analysis](#4.-Exploratory-Data-Analysis)  
-    4.1 [Distribution of Variables and Measures](#4.1-Distribution-of-Variables-and-Measures)  
-    4.2 [Cost and Unplanned Hospital Visits](#4.2-Cost-and-Unplanned-Hospital-Visits)  
-    4.3 [Cost and 30-Day Mortality Rate](#4.3-Cost-and-30-Day-Mortality-Rate)  
-    4.4 [Cost and Timely and Effective Measures](#4.4-Cost-and-Timely-and-Effective-Measures)  
-5. [Modeling](#5.-Modeling)  
-    5.1 [Simple Linear Regression](#5.1-Simple-Linear-Regression)  
-    5.2 [Multiple Linear Regression](#5.2-Multiple-Linear-Regression)  
-6. [Results and Discussion](#6.-Results-and-Discussion)
+3. Data Processing
+    3.1 Load Data
+    3.2 Clean Data
+    3.3 Choose Target Variables
+    3.4 Merge Datasets
+    3.5 Rescale Payments
+4. Exploratory Data Analysis
+    4.1 Distribution of Variables and Measures 
+    4.2 Cost and Unplanned Hospital Visits
+    4.3 Cost and 30-Day Mortality Rate
+    4.4 Cost and Timely and Effective Measures
+5. Modeling
+    5.1 Simple Linear Regression 
+    5.2 Multiple Linear Regression
+6. Results and Discussion
