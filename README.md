@@ -42,17 +42,17 @@ In order identify the relationship of cost and quality, I will need the data of 
     * \# of Hospitals: 4806
 
 ### 3. Data Processing
-    3.1 Load Data
-    3.2 Clean Data
-    3.3 Choose Target Variables
-    3.4 Merge Datasets
-    3.5 Rescale Payments
+ 3.1 Load Data
+ 3.2 Clean Data
+ 3.3 Choose Target Variables
+ 3.4 Merge Datasets
+ 3.5 Rescale Payments
 ### 4. Exploratory Data Analysis
-    4.1 Distribution of Variables and Measures 
-    4.2 Cost and Unplanned Hospital Visits
-    4.3 Cost and 30-Day Mortality Rate
-    4.4 Cost and Timely and Effective Measures
+ 4.1 Distribution of Variables and Measures 
+ 4.2 Cost and Unplanned Hospital Visits
+ 4.3 Cost and 30-Day Mortality Rate
+ 4.4 Cost and Timely and Effective Measures
 ### 5. Modeling
-    5.1 Simple Linear Regression 
-    5.2 Multiple Linear Regression
+ 5.1 Simple Linear Regression 
+ 5.2 Multiple Linear Regression
 ### 6. Results and Discussion
